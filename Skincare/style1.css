@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    
+    
+}
+h1{
+    font-family: lobster two, cursive;
+    font-size: x-large;
+    margin-left: 5%;
+}
+main{
+    background-image: url(./images/lavenderbackground.jpg);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media only screen and (max-width: 600px){
+    main{
+        background-color: brown;
+    }
+}
+main .form-box{
+    height: 85%;
+    width: 80%;
+    /* background-color: white; */
+    margin-left: 5%;
+    display: flex;
+}
+main .form-box .left{
+    height: 100%;
+    width: 40%;
+    background-color: palevioletred;
+    background-image: url(./images/potential-left1.jpeg);
+    background-size: cover;
+}
+main .form-box .right{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+}
+main .form-box .right .top-right{
+    margin-top: 4%;
+    margin-left: 50%;
+    font-size: small;
+    color: gray;
+}
+main .form-box .right .light-grey-text{
+    font-size: small;
+    color: gray;
+    margin-left: 15%;
+}
+main .form-box .right .top-right a{
+    color: plum;
+    text-decoration: none;
+}
+main .form-box .right .top-right button:hover{
+    background-color: blueviolet;
+    
+}
+main .form-box .right .top-right button a:hover{
+    color: white;
+}
+main .form-box .right #form-box{
+    margin-top: 5%;
+    margin-left: 7%;
+}
+main .form-box .right #form-box label{
+    font-weight: bold;
+    font-size: small;
+}
+main .form-box .right #form-box input{
+    height: 2.4em;
+    width: 30em;
+    border-radius: 0.5em;
+    border: 1px solid lightgrey;
+    box-shadow: 0 0 1px lightgrey;
+    /* background-color: whitesmoke; */
+}
+main .form-box .right #form-box button{
+    height: 3.3em;
+    width: 35%;
+    background-color: blueviolet;
+    border-radius: 5em;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+main .form-box .right button{
+    height: 3em;
+    width: 35%;
+    border-radius: 5em;
+    border: 1px solid plum;
+    background-color: white;
+    color: plum;
+    font-weight: bolder;
+}
+
+

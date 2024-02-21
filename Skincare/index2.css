@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+nav{
+    height: 12vh;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    position: fixed;
+    top: 0;
+}
+nav .brand-name{
+    height: 100%;
+    width: 15%;
+    /* background-color: pink; */
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media only screen and (max-width: 600px){
+    nav .brand-name,i{
+        display: none;
+    }
+}
+.brand-name{
+    /* margin-left: 5%; */
+    /* display: flex;
+    align-items: center; */
+    /* justify-content: center; */
+}
+.brand-name h1{
+    color: black;
+    font-family: lobster two, cursive;
+    font-size: x-large;
+    margin-left: 5%;
+}
+nav{
+    position: fixed;
+    top: 0;
+}
+nav .items{
+    height: 100%;
+    width: 80%;
+    /* background-color: pink; */
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav .items ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+nav .items ul li{
+    margin-left: 10%;
+
+}
+nav .items ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav .items ul #main-item{
+    font-weight: bolder;
+    font-size: larger;
+}
+nav .items ul #normal:hover{
+    color: red;
+    font-weight: bolder;
+}
+.nav-icons{
+    height: 100%;
+    width: 20%;
+    /* background-color: pink; */
+    color: black;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    
+}
+.nav-icons i{
+    margin-left: 15%;
+    color: black;
+}
+main{
+    margin-top: 15vh;
+    display: flex;
+    background-color: rgb(248, 208, 215);
+}
+main div{
+    height: 25em;
+    text-align: center;
+    background-color: rgb(248, 208, 215);
+}
+main div .the-txt{
+    margin-top: 8%;
+    padding-left: 4%;
+}
+main div .the-txt h1{
+    margin-bottom: 3%;
+}
+main div .the-img{
+    height: 100%;
+    background-color: rgb(248, 208, 215);
+}
+main div .the-img img{
+    height: 80%;
+    width: 50%;
+    border-radius: 70%;
+    margin-top: 10%;
+}
